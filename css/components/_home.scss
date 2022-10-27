@@ -1,3 +1,42 @@
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  z-index: 999;
+  background-color: #EA1D22;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-spiderman {
+  fill: transparent;
+
+  animation: logo-spiderman 12s ease infinite alternate;
+}
+
+@keyframes logo-spiderman {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+
+  25% {
+    stroke-width: 1;
+    stroke-dasharray: 100 0;
+  }
+
+  60%, 100% {
+    stroke-width: 0;
+    fill: $white-dark;
+  }
+}
+
 .section-container {
   max-width: 1416px;
   margin: 0 auto;
