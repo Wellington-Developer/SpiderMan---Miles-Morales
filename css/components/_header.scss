@@ -26,14 +26,14 @@
 .header-left-content {
   display: flex;
   align-items: center;
-  z-index: 2;
+  z-index: 4;
 }
 
 .nav-content {
   display: flex;
   gap: 38px;
   padding-left: 62px;
-  z-index: 1;
+  z-index: 4;
   display: relative;
 }
 
@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
   gap: 32px;
-  z-index: 1;
+  z-index: 4;
   img {
     cursor: pointer;
   }
